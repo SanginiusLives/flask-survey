@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Satisfaction Survey</h1>
+
+<h2>Instructions</h2>
+
+<p>Please Answer the following questions in order.</p>
+
+<p>Click go to begin!</p>
+
+<form action="/clear" method="POST">
+    <button>Start!</button>
+</form>
+{% endblock %}
